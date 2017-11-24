@@ -22,21 +22,23 @@ p {
   margin: 0;
 }
 
-div:nth-child(1) {
-  margin-top: 15px;
-  margin-bottom: 15px;
-  width: 100%;
-  color: darkgray
-}
+  div:nth-child(1) {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 100%;
+    color: darkgray
+  }
 
-div:nth-child(2) {
-  height: 450px;
-  width: 50%;
-}
-p:nth-child(3) {
-  height: 150px;
-
-}
+  div:nth-child(2) {
+    height: 450px;
+    width: 50%;
+  }
+    
+    p:nth-child(3) {
+      height: 150px;
+      margin-top: 40px;
+      margin-bottom: 40px;
+    }
 
 
 div:nth-child(3) {
