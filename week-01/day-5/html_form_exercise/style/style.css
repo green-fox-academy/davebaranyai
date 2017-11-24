@@ -1,25 +1,56 @@
+body {
+    background-color: #DCD6CD;
+}
+
 form {
   background-color: #DCD6CD;
   height: 1000px;
-  width: 822px;
+  width: 650px;
   box-sizing: border-box;
-  margin: auto;  
+  margin: auto;
+  
 
+}
+
+div {
+  padding: 10px;
+  float: left;
+  box-sizing: border-box;
+} 
+p {
+  border: solid 3px black;
+  margin: 0;
 }
 
 div:nth-child(1) {
-  background-color: yellow
+  margin-top: 15px;
+  margin-bottom: 15px;
+  width: 100%;
+  color: darkgray
 }
 
 div:nth-child(2) {
-  background-color: blue
+  height: 450px;
+  width: 50%;
+}
+p:nth-child(3) {
+  height: 150px;
+
 }
 
+
 div:nth-child(3) {
-  background-color: red
+  background-color: red;
+  height: 450px;
+  width: 50%;
 }
 
 div:nth-child(4) {
-  background-color: green
+  background-color: green;
+  margin-top: 15px;
+  margin-bottom: 75px;
+  height: 400px;
+  width: 100%;
+
 }
 
