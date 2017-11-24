@@ -1,0 +1,25 @@
+form {
+  background-color: #DCD6CD;
+  height: 1000px;
+  width: 822px;
+  box-sizing: border-box;
+  margin: auto;  
+
+}
+
+div:nth-child(1) {
+  background-color: yellow
+}
+
+div:nth-child(2) {
+  background-color: blue
+}
+
+div:nth-child(3) {
+  background-color: red
+}
+
+div:nth-child(4) {
+  background-color: green
+}
+
