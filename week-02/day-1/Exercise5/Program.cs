@@ -20,6 +20,14 @@ namespace GreenFox
             Console.WriteLine(22 / 13);
             // Print the reminder of 22 divided by 13
             Console.WriteLine(22 % 13);
+            int number1 = 13;
+            int number2 = 22;
+            Console.WriteLine(number1 + number2);
+            Console.WriteLine(number1 - number2);
+            Console.WriteLine(number1 * number2);
+            Console.WriteLine(number2 / (double)number1);
+
+
             Console.ReadLine();
         }
     }
