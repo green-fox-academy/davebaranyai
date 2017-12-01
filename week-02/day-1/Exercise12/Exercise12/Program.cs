@@ -6,7 +6,7 @@ namespace GreenFox
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Write '1' for cuboid, '2' for cylinder, or '3' for sphere:");
+            Console.WriteLine("Write '1' for cuboid, '2' for cylinder, or '3' for sphere and press ENTER:");
 
             int answer = Int16.Parse(Console.ReadLine());
 
@@ -25,11 +25,11 @@ namespace GreenFox
             else
             {
                 Console.WriteLine("Please, learn how to read.");
-            }                   
+            }
         }
         static void CuboidMethod()
         {
-            Console.WriteLine("Please write the length of side 'a' in cm: " );
+            Console.WriteLine("Please write the length of side 'a' in cm: ");
             double sideA = double.Parse(Console.ReadLine());
             Console.WriteLine("Please write the length of side 'b' in cm: ");
             double sideB = double.Parse(Console.ReadLine());
@@ -48,8 +48,8 @@ namespace GreenFox
             Console.WriteLine("Please write the height of the cylinder in cm: ");
             double height = double.Parse(Console.ReadLine());
             Console.WriteLine("Please write the length of the radius (half of the diameter) of the cylinder in cm: ");
-            double radius = double.Parse(Console.ReadLine());            
-        
+            double radius = double.Parse(Console.ReadLine());
+
             double area = (2 * height * radius * Math.PI) + (2 * Math.Pow(radius, 2) * Math.PI);
             double volume = height * Math.Pow(radius, 2) * Math.PI;
 
