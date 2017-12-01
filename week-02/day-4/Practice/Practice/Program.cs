@@ -1,21 +1,20 @@
 ﻿using System;
 
-namespace GreenFox
+namespace Doubling
 {
     class Program
     {
         static void Main(string[] args)
         {
-            // Swap the values of the variables
-            int a = 123;
-            int b = 526;
-
-            a = 526;
-            b = 123;
-
-            Console.WriteLine("a= " + a);
-            Console.WriteLine("b= " + b);
+            // - Create an integer variable named `ak` and assign the value `123` to it
+            // - Create a function called `doubling` that doubles it's input parameter
+            // - Print the result of `doubling(ak)`
             Console.ReadLine();
+        }
+
+        static void doubling()
+        {
+
         }
     }
 }
