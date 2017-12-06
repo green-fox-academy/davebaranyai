@@ -25,25 +25,17 @@ namespace GoToCenter
         {
             InitializeComponent();
             var foxDraw = new FoxDraw(canvas);
-            double x1 = 23;
-            double x2 = 195;
-            double x3 = 450;
-            double y1 = 45;
-            double y2 = 180;
-            double y3 = 310;
 
-            Lines(foxDraw, x1, x2, x3, y1, y2, y3);
-
-
-
+            Lines(foxDraw);
         }
-        public static void Lines(FoxDraw foxDraw, double x1, double x2, double x3, double y1, double y2, double y3)
+        public static void Lines(FoxDraw foxDraw)
         {
-            foxDraw.StrokeColor(Colors.Blue);
-            foxDraw.DrawLine(x1, y1, 250, 250);
-            foxDraw.DrawLine(x2, y2, 250, 250);
-            foxDraw.DrawLine(x3, y3, 250, 250);
-        }
+            for (int i = 0; i < 3; i++)
+            {
+                foxDraw.StrokeColor(Colors.Blue);
+                foxDraw.DrawLine(i * 50 + 20, i * 20 + 15, 250, 250);
+            }
 
+        }
     }
 }
