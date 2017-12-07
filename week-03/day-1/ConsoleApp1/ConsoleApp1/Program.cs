@@ -2,27 +2,23 @@
 
 namespace ConsoleApp1
 {
-    class Program
+    class ReturnTest
     {
-        static void Main(string[] args)
+        static double CalculateArea(int radius)
         {
-            Console.WriteLine("Mi a szam?");
-
-            try
-            {
-                int divisor = int.Parse(Console.ReadLine());
-                int result = 10 / divisor;
-                Console.WriteLine(result);
-            }
-            catch (DivideByZeroException)
-            {
-                Console.WriteLine("Fail");
-            }
-            finally
-            {
-                Console.ReadLine();
-            }
+            double area = radius * radius * Math.PI;
+            return area;
         }
 
+        static void Main()
+        {
+            int radius = 6;
+            double result = CalculateArea(radius);
+            Console.WriteLine("The area is {0:0.00}", result);
+
+            // Keep the console open in debug mode.
+            Console.WriteLine("Press any key to exit.");
+            Console.ReadKey();
+        }
     }
 }

@@ -13,12 +13,36 @@ namespace Exercise03
             // It should return zero if it can't open the file, and
             // should not raise any error.
 
-            string[] array1 = File.ReadAllLines(InputMove);
-        }
-        static string InputMove()
-        {
             string Input = @"./my-file.txt";
-            return Input;
+
+            Console.WriteLine(InputMove(Input));
+
+            Console.Read();
+            
+        }
+        static int InputMove(string Input)
+        {
+            try
+            {
+                string[] array1 = File.ReadAllLines(Input);
+                int ArrayLength = array1.Length;
+                return ArrayLength;
+            }
+            catch (FileNotFoundException e)
+            {
+                Console.WriteLine("zero");
+
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine("should not happen");
+
+            }
+            finally
+            {
+                Console.ReadLine();
+            }
+
         }
     }
     
