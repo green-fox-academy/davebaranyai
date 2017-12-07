@@ -15,11 +15,11 @@ namespace Exercise04
             Console.WriteLine("PowerN:");
             int n = Convert.ToInt32(Console.ReadLine());
 
-            int result = Power(basenum, n);
+            double result = Power(basenum, n);
             Console.WriteLine(result);
             Console.ReadLine();
         }
-        static int Power(int basenum, int n)
+        static double Power(int basenum, int n)
         {
             if (basenum == 0)
             {
