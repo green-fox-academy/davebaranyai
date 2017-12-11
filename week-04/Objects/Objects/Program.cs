@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace Objects
 {
@@ -6,6 +7,7 @@ namespace Objects
     {
         static void Main(string[] args)
         {
+            var list = new List<int>() { 1, 2, 3, 4 };
             Console.WriteLine("Hello World!");
         }
     }
