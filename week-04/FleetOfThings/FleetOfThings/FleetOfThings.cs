@@ -2,11 +2,17 @@
 
 namespace FleetOfThings
 {
-    class Program
+    public class FleetOfThings
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var fleet = new Fleet();
+            // Create a fleet of things to have this output:
+            // 1. [ ] Get milk
+            // 2. [ ] Remove the obstacles
+            // 3. [x] Stand up
+            // 4. [x] Eat lunch
+            // Hint: You have to create a Print method also
         }
     }
 }
