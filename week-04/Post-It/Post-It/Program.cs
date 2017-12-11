@@ -16,18 +16,19 @@ namespace Post_It
             PostIt postit1;
             postit1.BackgroundColor = "Orange";
             postit1.TextColor = "Blue";
-            postit1.TextColor = "Idea 1";
+            postit1.Text = "Idea 1";
 
             PostIt postit2;
             postit2.BackgroundColor = "Pink";
             postit2.TextColor = "Black";
-            postit2.TextColor = "Awesome";
+            postit2.Text = "Awesome";
 
             PostIt postit3;
             postit3.BackgroundColor = "Yellow";
             postit3.TextColor = "Green";
-            postit3.TextColor = "Superb!";
+            postit3.Text = "Superb!";
 
+            
 
         }
     }
