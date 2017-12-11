@@ -14,5 +14,20 @@ namespace Animal
             Hunger = 50;
             Thirst = 50;
         }
+        public void Eat()
+        {
+            Hunger -= 1;
+        }
+        public void Drink()
+        {
+            Thirst -= 1;
+        }
+        public void Play()
+        {
+            Hunger += 1;
+            Thirst += 1;
+        }
+
+
     }
 }
