@@ -6,14 +6,14 @@ namespace Animal
 {
     class Animal
     {
-        public int Hunger { get; set; }
-        public int Thirst { get; set; }
+        public int Hunger { get; set; } = 50;
+        public int Thirst { get; set; } = 50;
 
-        public Animal()
-        {
-            Hunger = 50;
-            Thirst = 50;
-        }
+        //public Animal()
+        //{
+        //    Hunger = 50;
+        //    Thirst = 50;
+        //}
         public void Eat()
         {
             Hunger -= 1;
