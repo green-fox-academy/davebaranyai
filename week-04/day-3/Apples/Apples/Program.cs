@@ -6,7 +6,7 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            AppleString applestring = new AppleString();
+            AppleString applestring = new AppleString("apple");
             applestring.PrintMessage();
 
             Console.ReadLine();
@@ -16,9 +16,9 @@ namespace ConsoleApp1
     {
         private string message;
 
-        public AppleString()
+        public AppleString(string message)
         {
-            this.message = "kutya";
+            this.message = message;
         }
         public string PrintMessage()
         {
