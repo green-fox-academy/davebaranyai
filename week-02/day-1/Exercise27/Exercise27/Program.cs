@@ -6,34 +6,31 @@ namespace Exercise27
     {
         static void Main(string[] args)
         {
-            FizzBuzzer(Result);
+            int MaxNumber = 101;
+            FizzBuzzer(MaxNumber);
             Console.ReadLine();
-        }
-        static int Counter()
+        }        
+        static void FizzBuzzer(int MaxNumber)
         {
-            for (int i = 1; i < 101; i++)
+            for (int i = 1; i < MaxNumber; i++)
             {
-                return i;
+                if (i % 3 == 0 && i % 5 == 0)
+                {
+                    Console.WriteLine("FizzBuzz");
+                }
+                else if (i % 3 == 0)
+                {
+                    Console.WriteLine("Fizz");
+                }
+                else if (i % 5 == 0)
+                {
+                    Console.WriteLine("Buzz");
+                }
+                else
+                {
+                    Console.WriteLine(i);
+                }
             }            
-        }
-        static void FizzBuzzer(int Result)
-        {
-            if (Result % 3 == 0 && Result % 5 == 0)
-            {
-                Console.WriteLine("FizzBuzz");
-            }
-            else if (Result % 3 == 0)
-            {
-                Console.WriteLine("Fizz");
-            }
-            else if (Result % 5 == 0)
-            {
-                Console.WriteLine("Buzz");
-            }
-            else
-            {
-                Console.WriteLine(Result);
-            }
         }
     }
 }
