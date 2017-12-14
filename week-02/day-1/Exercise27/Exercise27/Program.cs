@@ -6,19 +6,34 @@ namespace Exercise27
     {
         static void Main(string[] args)
         {
-            int MaxNumber = 100;
-
-            FizzBuzzer(MaxNumber);
+            FizzBuzzer(Result);
             Console.ReadLine();
-
-            // Write a program that prints the numbers from 1 to 100.
-            // But for multiples of three print “Fizz” instead of the number
-            // and for the multiples of five print “Buzz”.
-            // For numbers which are multiples of both three and five print “FizzBuzz”.
         }
-        static void FizzBuzzer(int MaxNumber)
+        static int Counter()
         {
-
+            for (int i = 1; i < 101; i++)
+            {
+                return i;
+            }            
+        }
+        static void FizzBuzzer(int Result)
+        {
+            if (Result % 3 == 0 && Result % 5 == 0)
+            {
+                Console.WriteLine("FizzBuzz");
+            }
+            else if (Result % 3 == 0)
+            {
+                Console.WriteLine("Fizz");
+            }
+            else if (Result % 5 == 0)
+            {
+                Console.WriteLine("Buzz");
+            }
+            else
+            {
+                Console.WriteLine(Result);
+            }
         }
     }
 }
