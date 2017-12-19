@@ -29,6 +29,5 @@ namespace GreenFox
         {
             int skippedDays = SkippedDays + numberOfDays;
         }
-
     }
 }
