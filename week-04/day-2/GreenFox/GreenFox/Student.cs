@@ -25,9 +25,9 @@ namespace GreenFox
             Console.WriteLine("Hi, I'm " + name + ",a(n) " + age + " year old " + gender + " from " + previousOrganization + " who skipped " + skippedDays + " days from the course already.");
         }
 
-        public void SkipDays(int numberOfDays, int SkippedDays)
+        public int SkipDays(int numberOfDays, int skippedDays)
         {
-            int skippedDays = SkippedDays + numberOfDays;
+            return skippedDays = skippedDays + numberOfDays;
         }
     }
 }
