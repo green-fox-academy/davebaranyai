@@ -1,37 +1,35 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace GreenFox
 {
-    class Person
+    public class Person
     {
-        public string name;
-        public int age;
-        public string gender;
+        public string Name { get; set; }
+        public int Age { get; set; }
+        public string Gender { get; set; }
 
         public Person(string name, int age, string gender)
         {
-            this.name = name;
-            this.age = age;
-            this.gender = gender;
+            this.Name = name;
+            this.Age = age;
+            this.Gender = gender;
         }
 
         public Person()
         {
-            name = "Jane Doe";
-            age = 30;
-            gender = "female";
+            Name = "Jane Doe";
+            Age = 30;
+            Gender = "female";
         }
 
         public virtual void Introduce()
         {
-            Console.WriteLine("Hi, I'm " + name + ", a " + age + " year old " + gender + ".");
+            Console.WriteLine("Hi, I'm {0}, a {1} year old {2}.", Name, Age, Gender);
         }
 
         public virtual void GetGoal()
         {
-            Console.WriteLine(@"My goal is: Live for the moment!");
+            Console.WriteLine("My goal is: Live for the moment!");
         }
     }
 }

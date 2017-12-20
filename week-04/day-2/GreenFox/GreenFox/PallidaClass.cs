@@ -1,36 +1,38 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System.Collections.Generic;
 
 namespace GreenFox
 {
-    class PallidaClass
+    public class PallidaClass
     {
-        public string className { get; set; }
-        public List<Student> StudentList { get; set; }
-        public List<Mentor> MentorList { get; set; }
+        public string ClassName { get; set; }
+        public List<Student> Students { get; set; }
+        public List<Mentor> Mentors { get; set; }
 
         public PallidaClass(string className)
         {
-            this.className = className;
-            StudentList;
-
+            ClassName = className;
+            Students = new List<Student>();
+            Mentors = new List<Mentor>();
         }
 
-        public void AddStudent(Student OneStudent)
+        public void AddStudent(Student student)
         {
-            StudentList.Add(OneStudent);
+            if (!Students.Contains(student))
+            {
+                Students.Add(student);
+            }
         }
-
-        public void AddMentor(Mentor OneMentor)
+        public void AddMentor(Mentor mentor)
         {
-            MentorList.Add(OneMentor);
+            if (!Mentors.Contains(mentor))
+            {
+                Mentors.Add(mentor);
+            }
         }
 
         public void Info()
         {
-            Console.WriteLine("Pallida" + className + "class has " + StudentList.Count + " students and " + MentorList.Count + " mentors.");
+            System.Console.WriteLine("Corsac {0} class has {1} students and {2} mentors.", ClassName, Students.Count, Mentors.Count);
         }
-
     }
 }

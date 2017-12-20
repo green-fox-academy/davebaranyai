@@ -1,38 +1,36 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace GreenFox
+﻿namespace GreenFox
 {
-    class Student : Person
+    public class Student : Person
     {
-        public string previousOrganization { get; set; }
-        public int skippedDays { get; set; }
+        public string PreviousOrganization { get; set; }
+        public int SkippedDays { get; set; }
 
         public Student(string name, int age, string gender, string previousOrganization) : base(name, age, gender)
         {
-            this.previousOrganization = previousOrganization;
-            skippedDays = 0;
+            PreviousOrganization = previousOrganization;
+            SkippedDays = 0;
         }
 
-        public Student()
+        public Student() : base()
         {
-            previousOrganization = "The School of Life";
-        }
-
-        public override void GetGoal()
-        {
-            Console.WriteLine("Be a junior software developer.");
+            PreviousOrganization = "The School of Life";
+            SkippedDays = 0;
         }
 
         public override void Introduce()
         {
-            Console.WriteLine("Hi, I'm " + name + ",a " + age + " year old " + gender + " from " + previousOrganization + " who skipped " + skippedDays + " days from the course already.");
+            System.Console.WriteLine("Hi, I'm {0}, a {1} year old {2} from {3} \n" +
+                "who skipped {4} days from the course already.", Name, Age, Gender, PreviousOrganization, SkippedDays);
+        }
+
+        public override void GetGoal()
+        {
+            System.Console.WriteLine("Be a junior software developer.");
         }
 
         public void SkipDays(int numberOfDays)
         {
-            skippedDays = skippedDays + numberOfDays;
+            SkippedDays += numberOfDays;
         }
     }
 }

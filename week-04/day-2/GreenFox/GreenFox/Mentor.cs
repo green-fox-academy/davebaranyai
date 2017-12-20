@@ -1,31 +1,30 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace GreenFox
+﻿namespace GreenFox
 {
-    class Mentor : Person
+    public class Mentor : Person
     {
-        string level;
+        public string Level { get; set; }
 
         public Mentor(string name, int age, string gender, string level) : base(name, age, gender)
         {
-            this.level = level;
+            Level = level;
         }
 
         public Mentor()
         {
-            level = "intermediate";
-        }
-
-        public override void GetGoal()
-        {
-            Console.WriteLine("Educate brilliant junior software developers.");
+            Name = "Jane Doe";
+            Age = 30;
+            Gender = "female";
+            Level = "intermediate";
         }
 
         public override void Introduce()
         {
-            Console.WriteLine("Hi, I'm " + name + ",a " + age + " year old " + gender + " " + level + " mentor.");
+            System.Console.WriteLine("Hi, I'm {0}, a {1} year old {2} {3} mentor.", Name, Age, Gender, Level);
+        }
+
+        public override void GetGoal()
+        {
+            System.Console.WriteLine("Educate brilliant junior software developers.");
         }
     }
 }
