@@ -9,10 +9,10 @@ namespace GreenFox
         string company;
         int hiredStudents;
 
-        public Sponsor(string company, int hiredStudents)
+        public Sponsor(string name, int age, string gender, string company) : base(name, age, gender)
         {
             this.company = company;
-            this.hiredStudents = hiredStudents;
+            hiredStudents = 0;
         }
 
         public Sponsor()
@@ -31,9 +31,9 @@ namespace GreenFox
             Console.WriteLine("Hi, I'm " + name + ", a " + age + " year old " + gender + " who represents " + company + " and hired " + hiredStudents + " students so far.");
         }
 
-        public int Hire(int hiredStudents)
+        public void Hire()
         {
-            return hiredStudents++;
+            hiredStudents++;
         }
     }
 }
