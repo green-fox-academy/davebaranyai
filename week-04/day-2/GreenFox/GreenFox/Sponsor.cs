@@ -11,6 +11,12 @@ namespace GreenFox
 
         public Sponsor(string company, int hiredStudents)
         {
+            this.company = company;
+            this.hiredStudents = hiredStudents;
+        }
+
+        public Sponsor()
+        {
             company = "Google";
             hiredStudents = 0;
         }

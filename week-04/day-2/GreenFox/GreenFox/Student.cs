@@ -9,10 +9,15 @@ namespace GreenFox
         string previousOrganization;
         int skippedDays;
 
-        public Student(string previousOrganization, int skippedDays)
+        public Student(string name, int age, string gender, string previousOrganization) : base(name, age, gender)
+        {
+            this.previousOrganization = previousOrganization;
+            skippedDays = 0;
+        }
+
+        public Student()
         {
             previousOrganization = "The School of Life";
-            skippedDays = 0;
         }
 
         public new void GetGoal()
@@ -25,9 +30,9 @@ namespace GreenFox
             Console.WriteLine("Hi, I'm " + name + ",a(n) " + age + " year old " + gender + " from " + previousOrganization + " who skipped " + skippedDays + " days from the course already.");
         }
 
-        public int SkipDays(int numberOfDays, int skippedDays)
+        public void SkipDays(int numberOfDays)
         {
-            return skippedDays = skippedDays + numberOfDays;
+            skippedDays = skippedDays + numberOfDays;
         }
     }
 }

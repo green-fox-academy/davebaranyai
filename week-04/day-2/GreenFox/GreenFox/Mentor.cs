@@ -8,7 +8,12 @@ namespace GreenFox
     {
         string level;
 
-        public Mentor(string level)
+        public Mentor(string name, int age, string gender, string level) : base(name, age, gender)
+        {
+            this.level = level;
+        }
+
+        public Mentor()
         {
             level = "intermediate";
         }
