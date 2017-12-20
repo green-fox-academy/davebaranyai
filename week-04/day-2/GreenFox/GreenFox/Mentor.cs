@@ -18,14 +18,14 @@ namespace GreenFox
             level = "intermediate";
         }
 
-        public new void GetGoal()
+        public override void GetGoal()
         {
             Console.WriteLine("Educate brilliant junior software developers.");
         }
 
-        public new void Introduce()
+        public override void Introduce()
         {
-            Console.WriteLine("Hi, I'm " + name + ",a(n) " + age + " year old " + gender + " " + level + " mentor.");
+            Console.WriteLine("Hi, I'm " + name + ",a " + age + " year old " + gender + " " + level + " mentor.");
         }
     }
 }

@@ -6,13 +6,15 @@ namespace GreenFox
 {
     class PallidaClass
     {
-        string className;
-        public List<Student> StudentList;
-        public List<Mentor> MentorList;
+        public string className { get; set; }
+        public List<Student> StudentList { get; set; }
+        public List<Mentor> MentorList { get; set; }
 
         public PallidaClass(string className)
-            {
+        {
             this.className = className;
+            StudentList;
+
         }
 
         public void AddStudent(Student OneStudent)

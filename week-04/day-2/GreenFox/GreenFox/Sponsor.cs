@@ -21,12 +21,12 @@ namespace GreenFox
             hiredStudents = 0;
         }
 
-        public new void GetGoal()
+        public override void GetGoal()
         {
             Console.WriteLine("Hire brilliant junior software developers.");
         }
 
-        public new void Introduce()
+        public override void Introduce()
         {
             Console.WriteLine("Hi, I'm " + name + ", a " + age + " year old " + gender + " who represents " + company + " and hired " + hiredStudents + " students so far.");
         }

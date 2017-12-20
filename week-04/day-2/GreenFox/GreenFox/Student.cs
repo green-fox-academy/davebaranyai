@@ -6,8 +6,8 @@ namespace GreenFox
 {
     class Student : Person
     {
-        string previousOrganization;
-        int skippedDays;
+        public string previousOrganization { get; set; }
+        public int skippedDays { get; set; }
 
         public Student(string name, int age, string gender, string previousOrganization) : base(name, age, gender)
         {
@@ -20,14 +20,14 @@ namespace GreenFox
             previousOrganization = "The School of Life";
         }
 
-        public new void GetGoal()
+        public override void GetGoal()
         {
             Console.WriteLine("Be a junior software developer.");
         }
 
-        public new void Introduce()
+        public override void Introduce()
         {
-            Console.WriteLine("Hi, I'm " + name + ",a(n) " + age + " year old " + gender + " from " + previousOrganization + " who skipped " + skippedDays + " days from the course already.");
+            Console.WriteLine("Hi, I'm " + name + ",a " + age + " year old " + gender + " from " + previousOrganization + " who skipped " + skippedDays + " days from the course already.");
         }
 
         public void SkipDays(int numberOfDays)
