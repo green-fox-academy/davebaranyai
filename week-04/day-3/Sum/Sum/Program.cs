@@ -7,7 +7,7 @@ namespace Sum
     {
         static void Main(string[] args)
         {
-            List<int> numberList = new List<int> { 12, 23, 45 };
+            List<int> numberList = new List<int>();
             
             Console.WriteLine(ListSummer(numberList));
             Console.ReadLine();
