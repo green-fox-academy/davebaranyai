@@ -16,6 +16,7 @@ namespace Cloneable
             Student john = new Student("John Doe", 20, "male", "BME");
             people.Add(john);
             Student student = new Student();
+            Student johnTheClone = john.clone();
             people.Add(student);
             Mentor gandhi = new Mentor("Gandhi", 148, "male", "senior");
             people.Add(gandhi);
