@@ -10,16 +10,15 @@ namespace Task01.Controllers
 {
     public class HomeController : Controller
     {
-        // GET: /<controller>/
         public IActionResult Index()
         {
             return View();
         }
 
         [Route("hello")]
-        public string Hello()
+        public IActionResult Hello()
         {
-            return "Hello World!";
+            return Content("Hello!");
         }
     }
 }

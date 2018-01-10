@@ -8,10 +8,10 @@ using Task01.Models;
 // For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
 namespace Task01.Controllers
-{    
+{
+    [Route("api")]
     public class RESTController : Controller
-    {
-        [Route("api")]
+    {        
         public IActionResult Index()
         {
             return View();
