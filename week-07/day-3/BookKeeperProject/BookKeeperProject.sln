@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookKeeperProject", "BookKeeperProject\BookKeeperProject.csproj", "{FB730B85-01F6-48E2-A03A-F0E211C3508D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FB730B85-01F6-48E2-A03A-F0E211C3508D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB730B85-01F6-48E2-A03A-F0E211C3508D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB730B85-01F6-48E2-A03A-F0E211C3508D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB730B85-01F6-48E2-A03A-F0E211C3508D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {72D076DB-A5A8-4AE6-BDB3-746F7F355539}
+	EndGlobalSection
+EndGlobal
