@@ -8,7 +8,7 @@ namespace BookKeeperProject.Controllers
         [HttpGet("")]
         public IActionResult Index()
         {
-            return Ok();
+            return View("Index");
         }
     }
 }

@@ -1,0 +1,10 @@
+﻿body 
+{
+    background-image: url('content/service-partner-horizontal.png');
+}
+h1
+{
+    text-align: center;
+    font-size: larger;
+    color: darkgoldenrod;    
+}
