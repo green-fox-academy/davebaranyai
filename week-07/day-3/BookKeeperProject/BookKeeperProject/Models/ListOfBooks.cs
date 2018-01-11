@@ -1,14 +1,9 @@
-﻿namespace BookKeeperProject.Models
+﻿using System.Collections.Generic;
+
+namespace BookKeeperProject.Models
 {
     public class ListOfBooks
     {
-        public int Id { get; set; }
-        public string Title { get; set; }
-        public string AuthorFirstName { get; set; }
-        public string AuthorLastName { get; set; }
-        public int Year { get; set; }
-        public string Type { get; set; }
-        public string Location { get; set; }
-        public bool Availability { get; set; }
+        public IList<Book> Books { get; set; } = new List<Book>();
     }
 }

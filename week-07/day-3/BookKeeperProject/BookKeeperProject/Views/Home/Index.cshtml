@@ -1,1 +1,19 @@
-﻿
+﻿@Model BookKeeperProject.Models.User
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>BookKeeper</title>
+</head>
+<body>
+    <h1>Hello @Model.Name</h1>
+    <table>
+        @foreach (var book in Model.ListOfBooks)
+        { 
+            <tr>
+
+            </tr>
+        }
+    </table>
+</body>
+</html>

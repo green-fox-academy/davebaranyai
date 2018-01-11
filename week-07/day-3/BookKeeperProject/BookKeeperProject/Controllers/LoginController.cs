@@ -27,11 +27,8 @@ namespace BookKeeperProject.Controllers
             {
                 return Redirect("home");
             }
-            else
-            {
-                return RedirectToAction("Index");
-            }
 
+            return RedirectToAction("Index");
         }
     }
 }
