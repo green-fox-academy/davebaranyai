@@ -17,9 +17,16 @@ namespace BookKeeperProject.Controllers
         }
 
         [HttpPost("")]
-        public IActionResult Login()
+        public IActionResult Login(string name)
         {
-            return Ok();
+            if (name.Equals("David"))
+            {
+                return Ok();
+            }
+            else
+            {
+                return RedirectToAction("Index");
+            }
         }
     }
 }
