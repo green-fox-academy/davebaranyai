@@ -19,6 +19,7 @@ namespace BookKeeperProject
             }
 
             app.UseMvc();
+            app.UseStaticFiles();
         }
     }
 }
