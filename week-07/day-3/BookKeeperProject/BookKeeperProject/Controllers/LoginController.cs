@@ -4,7 +4,6 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 
-// For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
 namespace BookKeeperProject.Controllers
 {
@@ -12,6 +11,12 @@ namespace BookKeeperProject.Controllers
     public class LoginController : Controller
     {
         [HttpGet("")]
+        public IActionResult Index()
+        {
+            return View();
+        }
+
+        [HttpPost("")]
         public IActionResult Login()
         {
             return Ok();
