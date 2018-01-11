@@ -21,12 +21,17 @@ namespace BookKeeperProject.Controllers
         {
             if (name.Equals("David"))
             {
-                return Ok();
+                return Redirect("home");
+            }
+            else if (name.Equals("Lilla"))
+            {
+                return Redirect("home");
             }
             else
             {
                 return RedirectToAction("Index");
             }
+
         }
     }
 }
