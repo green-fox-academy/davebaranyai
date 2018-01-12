@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27004.2010
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookKeeperProject", "BookKeeperProject\BookKeeperProject.csproj", "{FB730B85-01F6-48E2-A03A-F0E211C3508D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookKeeperProject", "BookKeeperProject\BookKeeperProject.csproj", "{FB730B85-01F6-48E2-A03A-F0E211C3508D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

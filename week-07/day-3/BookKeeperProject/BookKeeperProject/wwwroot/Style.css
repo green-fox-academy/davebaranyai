@@ -1,22 +1,70 @@
-﻿body {
-    background-image: url('content/1_32_full.jpg');
-    background-size: cover;
-}
-h1 {
+﻿h1 {
     text-align: center;
     font-size: larger;
-    color: darkgoldenrod;    
+    color: black;    
 }
 form {
     text-align: center;
     font-size: larger;
     color: black
 }
-header > span {
-    font-size: x-large;
+table {
+    margin-top: 35%;
+    width: 100%;
+    border-collapse: collapse;
+}
+th {
+    height: 50px;
+}
+table, th, td {
+    border: 3px solid black;
+}
+th {
+    font-weight: 900;
+    font-size: larger;
+}
+td {
+    font-weight:600;
+}
+body.login > header > span {
+    font-size: xx-large;
     font-family: 'Kite One', sans-serif;
     color: #c2540a;
     position: absolute;
     top: 0%;
+    left: 44%;
+}
+body.home > header > span {
+    font-size: xx-large;
+    font-family: 'Kite One', sans-serif;
+    color: black;
+    position: absolute;
+    top: 0%;
     left: 45%;
+}
+.container {
+    width: 500px;
+    height: 500px;
+    clear: both;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: 20%;
+    font-size: medium;
+    font-family: 'Kite One', sans-serif;
+    font-weight:600;
+}
+.container input {
+    width: 100%;
+    clear: both;
+}
+body.login{
+    background-image: url('content/LoginBG.jpg');
+    background-size: cover;
+}
+body.home{
+    background-image: url('content/HomeBg.jpg');
+    background-size: cover;
 }

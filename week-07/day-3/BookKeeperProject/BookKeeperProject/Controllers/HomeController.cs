@@ -1,14 +1,24 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using BookKeeperProject.Models;
+using BookKeeperProject.ViewModels;
+using Microsoft.AspNetCore.Mvc;
 
 namespace BookKeeperProject.Controllers
 {
-    [Route("home")]
+    [Route("")]
     public class HomeController : Controller
     {
-        [HttpGet("")]
+        public static ListOfBooks LoBooks = new ListOfBooks();
+
+        [HttpGet("home")]
         public IActionResult Index()
         {
-            return View("Index");
+            return View(LoBooks);
+        }
+        [HttpPost("add")]
+        public IActionResult AddBook(Book book)
+        {
+            LoBooks.Books.Add(book);
+            return RedirectToAction("Home/index");
         }
     }
 }
