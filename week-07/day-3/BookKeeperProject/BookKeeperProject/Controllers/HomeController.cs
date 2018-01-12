@@ -14,11 +14,12 @@ namespace BookKeeperProject.Controllers
         {
             return View(LoBooks);
         }
+
         [HttpPost("add")]
         public IActionResult AddBook(Book book)
         {
             LoBooks.Books.Add(book);
-            return RedirectToAction("Home/index");
+            return RedirectToAction("index");
         }
     }
 }
