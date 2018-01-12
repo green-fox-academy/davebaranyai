@@ -3,9 +3,15 @@
     font-size: larger;
     color: black;    
 }
-form {
-    text-align: center;
-    font-size: larger;
+form.login {
+    margin-left: 40%;
+    margin-top: 2%;
+    font-size: 100%;
+    color: black
+}
+form.home {
+    vertical-align:central;
+    font-size: 100%;
     color: black
 }
 table {
@@ -27,12 +33,12 @@ td {
     font-weight:600;
 }
 body.login > header > span {
-    font-size: xx-large;
+    font-size: 150%;
     font-family: 'Kite One', sans-serif;
     color: #c2540a;
     position: absolute;
     top: 0%;
-    left: 44%;
+    left: 42%;
 }
 body.home > header > span {
     font-size: xx-large;
