@@ -13,11 +13,9 @@ namespace HelloWorld.Controllers
         // GET: /<controller>/
         public IActionResult Index()
         {
-            return View();
-
-            
+            return View();            
         }
-        [Route("hello")]
+        [Route("")]
         public IActionResult Hello()
         {
             return Content("Hello World!");
