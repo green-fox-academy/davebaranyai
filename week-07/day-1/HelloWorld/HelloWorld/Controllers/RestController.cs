@@ -17,11 +17,11 @@ namespace HelloWorld.Controllers
         }
 
         [Route("greeting")]
-        public IActionResult Greeting()
+        public IActionResult Greeting([FromQuery] string name)
         {
             var greeting = new Greeting();
             greeting.Id = 1;
-            greeting.Content = "Hello, world";
+            greeting.Content = "Hello, " + name;
 
             return new JsonResult(greeting);
         }
