@@ -10,7 +10,8 @@ namespace HelloWorld.Controllers
 {
     [Route("api")]
     public class RestController : Controller
-    {
+    {      
+
         public IActionResult Index()
         {
             return View();
@@ -19,10 +20,8 @@ namespace HelloWorld.Controllers
         [Route("greeting")]
         public IActionResult Greeting([FromQuery] string name)
         {
-            var greeting = new Greeting();
-            greeting.Id = 1;
-            greeting.Content = "Hello, " + name;
-
+            Greeting greeting = new Greeting(name);
+            
             return new JsonResult(greeting);
         }
     }

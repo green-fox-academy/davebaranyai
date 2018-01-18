@@ -9,5 +9,12 @@ namespace HelloWorld.Models
     {
         public long Id { get; set; }
         public string Content { get; set; }
+
+        public Greeting(string name)
+        {
+            Id = 1;
+            Content = "Hello, " + name;
+        }       
+
     }
 }
