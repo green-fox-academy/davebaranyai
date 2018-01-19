@@ -1,6 +1,6 @@
-﻿@model BookKeeperProject.ViewModels.ListOfBooks
+﻿@model IQueryable<BookKeeperProject.Models.Book>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en"> 
 <head>
     @*<link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />*@
     <link href="~/Style.css" rel="stylesheet" />
@@ -65,12 +65,10 @@
             <th>Location</th>
             <th>Availability</th>
         </tr>
-        @{int counter = 0; }
-        @foreach (var book in Model.Books)
+        @foreach (var book in Model)
         {
-            counter++;
             <tr>
-                <td>@counter</td>
+                <td>@book.ID</td>
                 <td>@book.Title</td>
                 <td>@book.AuthorFirstName</td>
                 <td>@book.AuthorLastName</td>
