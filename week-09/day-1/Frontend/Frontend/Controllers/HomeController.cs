@@ -15,7 +15,7 @@ namespace Frontend.Controllers
         }
 
         [HttpGet("doubling")]
-        public IActionResult Doubling([FromQuery]int? input)
+        public IActionResult Doubling(int? input)
         {
             if (input == null)
             {
@@ -23,5 +23,19 @@ namespace Frontend.Controllers
             }
             return Json(new { received = input, result = 2 * input});
         }
+
+        [HttpGet("greeter")]
+        public IActionResult Greeter(string name, string title)
+        {
+            if (name == null)
+            {
+                return Json(new { error = "Please provide a name!" });
+            }
+            if (title == null)
+            {
+                return Json(new { error = "Please provide a title!" });
+            }
+            return Json(new {welcome_message = $"Oh, hi there {name}, my dear {title}!" });
+            }
     }
 }
