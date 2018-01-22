@@ -2,14 +2,16 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Frontend.Controllers
 {
-    [Produces("application/json")]
-    [Route("api/Home")]
     public class HomeController : Controller
     {
+        [Route("")]
+        public IActionResult Index()
+        {
+            return File("index.html", "text/html")
+        }
     }
 }
