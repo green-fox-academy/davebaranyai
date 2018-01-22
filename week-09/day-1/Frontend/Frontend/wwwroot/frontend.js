@@ -36,10 +36,10 @@
     <meta content="https://avatars3.githubusercontent.com/u/14247612?s=400&amp;v=4" property="og:image" /><meta content="GitHub" property="og:site_name" /><meta content="object" property="og:type" /><meta content="greenfox-academy/teaching-materials" property="og:title" /><meta content="https://github.com/greenfox-academy/teaching-materials" property="og:url" /><meta content="teaching-materials - Central repository of Green Fox Academy&#39;s syllabus modules" property="og:description" />
 
   <link rel="assets" href="https://assets-cdn.github.com/">
-  <link rel="web-socket" href="wss://live.github.com/_sockets/VjI6MjI0MTMzNTcwOjVmOTJmMWJiNmRkMjY4NzYyN2I4YWU5NGY2ODljOGMzNGFiNmQ4MDNlZDdhZDE1OTZiYWNmMjBkOGNjMWRlZGQ=--4a7234db717d65b0ce12b62c8a2a3b06b39ad1df">
+  <link rel="web-socket" href="wss://live.github.com/_sockets/VjI6MjI0MTMzNTcwOjk4NzNkZDYyYjVjMjhhZDFmZDU4OWM2N2FhMDcyNjRjYzU5ZTQwMDRmMDZjZGVjZWJkNjQyNGYzMDJlODUyOWI=--9c1a7e7b1a2d0aa1585b71e4767b60e761eb759a">
   <meta name="pjax-timeout" content="1000">
   <link rel="sudo-modal" href="/sessions/sudo_modal">
-  <meta name="request-id" content="D6C3:1407:3A0A099:66FC21D:5A65C30B" data-pjax-transient>
+  <meta name="request-id" content="D9ED:140C:58C8358:B0CCF53:5A65CB08" data-pjax-transient>
   
 
   <meta name="selected-link" value="repo_source" data-pjax-transient>
@@ -49,7 +49,7 @@
   <meta name="google-site-verification" content="GXs5KoUUkNCoaAZn7wPN-t01Pywp9M3sEjnt_3_ZWPc">
     <meta name="google-analytics" content="UA-3769691-2">
 
-<meta content="collector.githubapp.com" name="octolytics-host" /><meta content="github" name="octolytics-app-id" /><meta content="https://collector.githubapp.com/github-external/browser_event" name="octolytics-event-url" /><meta content="D6C3:1407:3A0A099:66FC21D:5A65C30B" name="octolytics-dimension-request_id" /><meta content="iad" name="octolytics-dimension-region_edge" /><meta content="iad" name="octolytics-dimension-region_render" /><meta content="30839785" name="octolytics-actor-id" /><meta content="davebaranyai" name="octolytics-actor-login" /><meta content="a1216a325a7e650484c24e99c70a03aa0029644b97abe613d7c4a2a84f59e574" name="octolytics-actor-hash" />
+<meta content="collector.githubapp.com" name="octolytics-host" /><meta content="github" name="octolytics-app-id" /><meta content="https://collector.githubapp.com/github-external/browser_event" name="octolytics-event-url" /><meta content="D9ED:140C:58C8358:B0CCF53:5A65CB08" name="octolytics-dimension-request_id" /><meta content="iad" name="octolytics-dimension-region_edge" /><meta content="iad" name="octolytics-dimension-region_render" /><meta content="30839785" name="octolytics-actor-id" /><meta content="davebaranyai" name="octolytics-actor-login" /><meta content="a1216a325a7e650484c24e99c70a03aa0029644b97abe613d7c4a2a84f59e574" name="octolytics-actor-hash" />
 <meta content="https://github.com/hydro_browser_events" name="hydro-events-url" />
 <meta content="/&lt;user-name&gt;/&lt;repo-name&gt;/blob/show" data-pjax-transient="true" name="analytics-location" />
 
@@ -65,7 +65,7 @@
   <meta name="user-login" content="davebaranyai">
 
       <meta name="expected-hostname" content="github.com">
-    <meta name="js-proxy-site-detection-payload" content="YzYzYjEzZTc3ODQ3ZTlmNDljMzhkNzY5YmIzMjU1ZjRhNmFhYTBmY2ExNWZmYzFjMTcxYTQxYjRlNDQ3NzAxZHx7InJlbW90ZV9hZGRyZXNzIjoiMTk1LjIyOC4xNDcuMTIyIiwicmVxdWVzdF9pZCI6IkQ2QzM6MTQwNzozQTBBMDk5OjY2RkMyMUQ6NUE2NUMzMEIiLCJ0aW1lc3RhbXAiOjE1MTY2MTg1MTAsImhvc3QiOiJnaXRodWIuY29tIn0=">
+    <meta name="js-proxy-site-detection-payload" content="OTA5MzUzMTUyZGQ5NzNjNTdmYzRhZTU4NGJjOTg5ZTg1MmE5MmI2Y2NiZTEwNjlmZDgyMGM0ZjVmZGY0ODkzZnx7InJlbW90ZV9hZGRyZXNzIjoiMTk1LjIyOC4xNDcuMTIyIiwicmVxdWVzdF9pZCI6IkQ5RUQ6MTQwQzo1OEM4MzU4OkIwQ0NGNTM6NUE2NUNCMDgiLCJ0aW1lc3RhbXAiOjE1MTY2MjA1NTksImhvc3QiOiJnaXRodWIuY29tIn0=">
 
     <meta name="enabled-features" content="UNIVERSE_BANNER,FREE_TRIALS">
 
@@ -74,7 +74,7 @@
   <meta http-equiv="x-pjax-version" content="0505e76be9daad796e3d8a4b70eaeedb">
   
 
-      <link href="https://github.com/greenfox-academy/teaching-materials/commits/master.atom?token=AdaT6RHOx9rwTCeJ9ZiARussOI7Btwnbks64caQOwA%3D%3D" rel="alternate" title="Recent Commits to teaching-materials:master" type="application/atom+xml">
+      <link href="https://github.com/greenfox-academy/teaching-materials/commits/master.atom?token=AdaT6TM0GRZgWS0VpD0WUzJHRyqS0kdgks64cawPwA%3D%3D" rel="alternate" title="Recent Commits to teaching-materials:master" type="application/atom+xml">
 
   <meta name="description" content="teaching-materials - Central repository of Green Fox Academy&#39;s syllabus modules">
   <meta name="go-import" content="github.com/greenfox-academy/teaching-materials git https://github.com/greenfox-academy/teaching-materials.git">
@@ -252,7 +252,7 @@
           Settings
         </a></li>
 
-        <li><!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/logout" class="logout-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="nCOGEHakoNR1xMLEesUv27RfEj6FNSjfvYn4LOQJYY8jqfO3p1W6wESCy9sGyFPtloqU5SRs/F450V5xJTyR6Q==" /></div>
+        <li><!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/logout" class="logout-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="W1bUZ/n6xQ5yJJRy6uXc9DNgR5gD0UUqG9+lAc24HrXk3KHAKAvfGkNinW2W6KDCEbXBQ6KIkaufhwNcDI3u0w==" /></div>
           <button type="submit" class="dropdown-item dropdown-signout" data-ga-click="Header, sign out, icon:logout">
             Sign out
           </button>
@@ -263,7 +263,7 @@
 </ul>
 
 
-        <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/logout" class="sr-only right-0" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="2UCQzNOibGPJnUACMo/uyKbIQuQVYOPvRO0xEVffhnJmyuVrAlN2d/jbSR1OgpL+hB3EP7Q5N27AtZdMlup2FA==" /></div>
+        <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/logout" class="sr-only right-0" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="izfzTWLDC7CagZmGQmaCGsz4rKa/ZxIti8c9XMlup6k0vYbqszIRpKvHkJk+a/4s7i0qfR4+xqwPn5sBCFtXzw==" /></div>
           <button type="submit" class="dropdown-item dropdown-signout" data-ga-click="Header, sign out, icon:logout">
             Sign out
           </button>
@@ -300,7 +300,7 @@
 
       <ul class="pagehead-actions">
   <li>
-        <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/notifications/subscribe" class="js-social-container" data-autosubmit="true" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="VFSYt/vl7V86qpY/GiQqPf9RCwhSFhTFLfy/mB2YNUZjlNm5OBwlVLXurZTRp6Wt1hzdMzzp2Vm6k8X93n9Pww==" /></div>      <input class="form-control" id="repository_id" name="repository_id" type="hidden" value="70900516" />
+        <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/notifications/subscribe" class="js-social-container" data-autosubmit="true" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="EZayxJJhPGO3ztH0V5yHz8RAGQRVqQWuinu4KDxS2YkmVvPKUZj0aDiK6l+cHwhf7Q3PPztWyDIdFMJN/7WjDA==" /></div>      <input class="form-control" id="repository_id" name="repository_id" type="hidden" value="70900516" />
 
         <div class="select-menu js-menu-container js-select-menu">
           <a href="/greenfox-academy/teaching-materials/subscription"
@@ -380,7 +380,7 @@
   <li>
     
   <div class="js-toggler-container js-social-container starring-container ">
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/greenfox-academy/teaching-materials/unstar" class="starred js-social-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="i0MMNbs3jlzbt1GTie/IOlzX+Lvzlow4qlUdeEOvJSb8nx9lUvirvRDKMWBw+X3x5zr9g+MEbokOVEOYec8VRg==" /></div>
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/greenfox-academy/teaching-materials/unstar" class="starred js-social-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="T05FX0nAd+CUIEcU4Ss0q3QVTOsE05t9F6nSlzGPVaA4klYPoA9SAV9dJ+cYPYFgz/hJ0xRBecyzqIx3C+9lwA==" /></div>
       <input type="hidden" name="context" value="repository"></input>
       <button
         type="submit"
@@ -395,7 +395,7 @@
           8
         </a>
 </form>
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/greenfox-academy/teaching-materials/star" class="unstarred js-social-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="iQNBa90qOIgsTpCcYItC0eL8SVJVsLR9fdy/NWxh1Un2iIoJwL0ktnIvdHy3ouheT/YdUYJ1y6cfQCNd/zCJgA==" /></div>
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/greenfox-academy/teaching-materials/star" class="unstarred js-social-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="XzUWa/blIBHMtvim/+oXBajZSlQWGUanpY6YFLvWugkgvt0J63I8L5LXHEYow72KBdMeV8HcOX3HEgR8KIfmwA==" /></div>
       <input type="hidden" name="context" value="repository"></input>
       <button
         type="submit"
@@ -879,13 +879,13 @@
             <svg aria-hidden="true" class="octicon octicon-device-desktop" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M15 2H1c-.55 0-1 .45-1 1v9c0 .55.45 1 1 1h5.34c-.25.61-.86 1.39-2.34 2h8c-1.48-.61-2.09-1.39-2.34-2H15c.55 0 1-.45 1-1V3c0-.55-.45-1-1-1zm0 9H1V3h14v8z"/></svg>
         </a>
 
-          <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/greenfox-academy/teaching-materials/edit/master/workshop/rest-backend/exercises/frontend/project/wwwroot/frontend.js" class="inline-form js-update-url-with-hash" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="X+LvgzlinuxISje2dPcdnxgY02S8jwQE33B6X0x7WXALp2Bf5wK01cgFD9NoLsjwvViY6sAxf+Kw9JA+n2DAaw==" /></div>
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/greenfox-academy/teaching-materials/edit/master/workshop/rest-backend/exercises/frontend/project/wwwroot/frontend.js" class="inline-form js-update-url-with-hash" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="fTamSqNswp8i2ATuRJjLWWQcxXMOsB+rOyHepK5mUmYpcymWfQzopqKXPItYQR42wVyO/XIOZE1UpTTFfX3LfQ==" /></div>
             <button class="btn-octicon tooltipped tooltipped-nw" type="submit"
               aria-label="Fork this project and edit the file" data-hotkey="e" data-disable-with>
               <svg aria-hidden="true" class="octicon octicon-pencil" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M0 12v3h3l8-8-3-3-8 8zm3 2H1v-2h1v1h1v1zm10.3-9.3L12 6 9 3l1.3-1.3a.996.996 0 0 1 1.41 0l1.59 1.59c.39.39.39 1.02 0 1.41z"/></svg>
             </button>
 </form>
-        <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/greenfox-academy/teaching-materials/delete/master/workshop/rest-backend/exercises/frontend/project/wwwroot/frontend.js" class="inline-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="mJvfrQqvLt+pomn5ggB7EfPWxxDWGkIQDo0jkM9a8KgFZETnddtjMimiV71IiU6Gu05S6YkGfqZM09nhuAFTAA==" /></div>
+        <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/greenfox-academy/teaching-materials/delete/master/workshop/rest-backend/exercises/frontend/project/wwwroot/frontend.js" class="inline-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="AtDMKybrRVK9xjwYHy4Wek/I4QSOv9RuN1SRfqhwzXOfL1dhWZ8Ivz3GAlzVpyPtB1B0/dGj6Nh1CmsP3ytu2w==" /></div>
           <button class="btn-octicon btn-octicon-danger tooltipped tooltipped-nw" type="submit"
             aria-label="Fork this project and delete the file" data-disable-with>
             <svg aria-hidden="true" class="octicon octicon-trashcan" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M11 2H9c0-.55-.45-1-1-1H5c-.55 0-1 .45-1 1H2c-.55 0-1 .45-1 1v1c0 .55.45 1 1 1v9c0 .55.45 1 1 1h7c.55 0 1-.45 1-1V5c.55 0 1-.45 1-1V3c0-.55-.45-1-1-1zm-1 12H3V5h1v8h1V5h1v8h1V5h1v8h1V5h1v9zm1-10H2V3h9v1z"/></svg>
@@ -1419,7 +1419,7 @@
 <div class="footer container-lg px-3" role="contentinfo">
   <div class="position-relative d-flex flex-justify-between py-6 mt-6 f6 text-gray border-top border-gray-light ">
     <ul class="list-style-none d-flex flex-wrap ">
-      <li class="mr-3">&copy; 2018 <span title="0.16601s from unicorn-2252311260-x01pl">GitHub</span>, Inc.</li>
+      <li class="mr-3">&copy; 2018 <span title="0.16980s from unicorn-1028623850-nq03k">GitHub</span>, Inc.</li>
         <li class="mr-3"><a href="https://github.com/site/terms" data-ga-click="Footer, go to terms, text:terms">Terms</a></li>
         <li class="mr-3"><a href="https://github.com/site/privacy" data-ga-click="Footer, go to privacy, text:privacy">Privacy</a></li>
         <li class="mr-3"><a href="https://github.com/security" data-ga-click="Footer, go to security, text:security">Security</a></li>
