@@ -52,5 +52,34 @@ namespace Frontend.Controllers
             string appendResult = appender.ToString();
             return Json(new { appended = appendResult });
         }
+
+        [HttpPost("/dountil/{what}")]
+        public IActionResult DoUntil([FromBody] Item item, [FromRoute]string what)
+        {
+            if (item.Until == null)
+            {
+                return Json(new { error = "Please provide a number!" });
+            }
+
+            if (what.Equals("sum"))
+            {
+                int result = (int)item.Until * ((int)item.Until + 1) / 2;
+                return Json(new { result = result });
+            }
+
+            if (what.Equals("factor"))
+            {
+                int result = 1;
+                while ((int)item.Until != 1)
+                {
+                    result *= (int)item.Until;
+                    item.Until--;
+                }
+                return Json(new { result = result });
+            }
+
+            return NotFound();
+        }
+
     }
 }
