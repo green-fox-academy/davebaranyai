@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Counter.Models
+namespace Counter.Services
 {
-    public class IndexModel
+    public class IndexService
     {
-        public int Counter { get; set; }
+
+
     }
 }
