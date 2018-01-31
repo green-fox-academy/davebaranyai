@@ -1,4 +1,5 @@
 ﻿using PallidaExam.Entities;
+using PallidaExam.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,6 +16,10 @@ namespace PallidaExam.Repositories
             this.carContext = carContext;
         }
 
+        public List<Car> LicensePlateFilter(string q)
+        {
+            return carContext.Cars.Where(c => c.Plate.Contains(q)).ToList();
+        }
 
 	//ide johetnek pl a listak
     }
