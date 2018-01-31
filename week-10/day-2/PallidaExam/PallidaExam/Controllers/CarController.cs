@@ -20,14 +20,14 @@ namespace PallidaExam.Controllers
         [HttpGet("search")]
         public IActionResult Search([FromQuery] string q, int police, int diplomat)
         {
-            return View("index", );
+            return View("index", carService.GetSearchList(q, police, diplomat));
         }
 
         [HttpGet("search/{brand}")]
         public IActionResult Index()
         {
 
-            return View( );
+            return View();
         }
     }
 }
