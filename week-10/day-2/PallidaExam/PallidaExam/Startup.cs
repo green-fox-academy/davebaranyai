@@ -8,6 +8,8 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
 using PallidaExam.Entities;
 using Microsoft.EntityFrameworkCore;
+using PallidaExam.Services;
+using PallidaExam.Repositories;
 
 namespace PallidaExam
 {
@@ -16,6 +18,8 @@ namespace PallidaExam
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc();
+            services.AddScoped<CarService>();
+            services.AddScoped<CarRepository>();
             services.AddDbContext<CarContext>(options => options.UseSqlServer(@"Data Source = (localdb)\ProjectsV13; Initial Catalog = carsDB; Integrated Security = True; Connect Timeout = 30; Encrypt = False; TrustServerCertificate = True; ApplicationIntent = ReadWrite; MultiSubnetFailover = False"));
         }
 
