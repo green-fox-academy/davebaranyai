@@ -21,6 +21,18 @@ namespace PallidaExam.Repositories
             return carContext.Cars.Where(c => c.Plate.Contains(q)).ToList();
         }
 
-	//ide johetnek pl a listak
+        public List<Car> PoliceFilter()
+        {
+            return carContext.Cars.Where(c => c.Plate.StartsWith("RB")).ToList();
+        }
+
+        public List<Car> DiplomatFilter()
+        {
+            return carContext.Cars.Where(c => c.Plate.StartsWith("DT")).ToList();
+        }
+
+
+
+        //ide johetnek pl a listak
     }
 }
