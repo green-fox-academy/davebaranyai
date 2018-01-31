@@ -9,7 +9,7 @@ namespace PallidaExam.Migrations
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
-                name: "Books",
+                name: "Cars",
                 columns: table => new
                 {
                     Plate = table.Column<string>(nullable: false),
@@ -20,14 +20,14 @@ namespace PallidaExam.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Books", x => x.Plate);
+                    table.PrimaryKey("PK_Cars", x => x.Plate);
                 });
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
-                name: "Books");
+                name: "Cars");
         }
     }
 }

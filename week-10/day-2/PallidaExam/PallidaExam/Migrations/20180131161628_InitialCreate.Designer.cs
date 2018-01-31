@@ -10,7 +10,7 @@ using System;
 namespace PallidaExam.Migrations
 {
     [DbContext(typeof(CarContext))]
-    [Migration("20180131160428_InitialCreate")]
+    [Migration("20180131161628_InitialCreate")]
     partial class InitialCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -35,7 +35,7 @@ namespace PallidaExam.Migrations
 
                     b.HasKey("Plate");
 
-                    b.ToTable("Books");
+                    b.ToTable("Cars");
                 });
 #pragma warning restore 612, 618
         }

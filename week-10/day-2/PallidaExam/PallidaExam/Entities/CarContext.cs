@@ -14,6 +14,6 @@ namespace PallidaExam.Entities
 
         }
 
-        public DbSet<Car> Books { get; set; }
+        public DbSet<Car> Cars { get; set; }
     }
 }

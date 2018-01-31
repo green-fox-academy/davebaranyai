@@ -34,7 +34,7 @@ namespace PallidaExam.Migrations
 
                     b.HasKey("Plate");
 
-                    b.ToTable("Books");
+                    b.ToTable("Cars");
                 });
 #pragma warning restore 612, 618
         }
