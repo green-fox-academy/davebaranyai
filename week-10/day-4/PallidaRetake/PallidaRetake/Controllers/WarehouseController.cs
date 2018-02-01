@@ -10,23 +10,23 @@ namespace PallidaRetake.Controllers
     [Route("")]
     public class WarehouseController : Controller
     {
-        private WarehouseService warehouseService;
+        //private WarehouseService warehouseService;
 
-        public WarehouseController(WarehouseService warehouseService)
-        {
-            this.warehouseService = warehouseService;
-        }
+        //public WarehouseController(WarehouseService warehouseService)
+        //{
+        //    this.warehouseService = warehouseService;
+        //}
 
         [HttpGet("warehouse")]
         public IActionResult ItemListing()
         {
-            return View("index", );
+            return View("ItemListing");
         }
 
         [HttpGet("warehouse/summary")]
         public IActionResult OrderSummary()
         {
-            return View("index", );
+            return View("OrderSummary");
         }
     }
 }
