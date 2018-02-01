@@ -1,4 +1,5 @@
 ﻿using PallidaRetake.Entities;
+using PallidaRetake.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,6 +16,10 @@ namespace PallidaRetake.Repositories
             this.warehouseContext = warehouseContext;
         }
 
+        public List<Item> AllItemsList()
+        {            
+                return warehouseContext.ItemsTable.ToList();          
+        }
 
 	//ide johetnek pl a listak
     }
