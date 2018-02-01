@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27004.2010
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yondu", "Yondu\Yondu.csproj", "{34FE4492-586E-463C-9028-C8736CDA93A8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Yondu", "Yondu\Yondu.csproj", "{34FE4492-586E-463C-9028-C8736CDA93A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yondu.Integration.Tests", "Yondu.Integration.Tests\Yondu.Integration.Tests.csproj", "{3CC953DD-BCDF-4266-8983-66C458A294AB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{34FE4492-586E-463C-9028-C8736CDA93A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{34FE4492-586E-463C-9028-C8736CDA93A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{34FE4492-586E-463C-9028-C8736CDA93A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CC953DD-BCDF-4266-8983-66C458A294AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CC953DD-BCDF-4266-8983-66C458A294AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CC953DD-BCDF-4266-8983-66C458A294AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CC953DD-BCDF-4266-8983-66C458A294AB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
