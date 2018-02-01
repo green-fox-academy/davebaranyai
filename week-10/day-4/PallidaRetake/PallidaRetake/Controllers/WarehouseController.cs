@@ -3,15 +3,30 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using PallidaRetake.Services;
 
 namespace PallidaRetake.Controllers
 {
     [Route("")]
     public class WarehouseController : Controller
     {
-        public IActionResult Index()
+        private WarehouseService warehouseService;
+
+        public WarehouseController(WarehouseService warehouseService)
         {
-            return View();
+            this.warehouseService = warehouseService;
+        }
+
+        [HttpGet("warehouse")]
+        public IActionResult ItemListing()
+        {
+            return View("index", );
+        }
+
+        [HttpGet("warehouse/summary")]
+        public IActionResult OrderSummary()
+        {
+            return View("index", );
         }
     }
 }

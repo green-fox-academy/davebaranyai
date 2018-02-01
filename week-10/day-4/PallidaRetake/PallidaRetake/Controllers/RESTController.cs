@@ -8,8 +8,14 @@ using Microsoft.AspNetCore.Mvc;
 namespace PallidaRetake.Controllers
 {
     [Produces("application/json")]
-    [Route("warehouse/query")]
+    [Route("")]
     public class RESTController : Controller
     {
+        [HttpGet("warehouse/query")]
+        public IActionResult PriceComparison([FromQuery]int price, string comparison)
+        {            
+            return Json(new { });
+        }
+
     }
 }
