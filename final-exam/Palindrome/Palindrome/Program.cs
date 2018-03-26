@@ -7,7 +7,18 @@ namespace Palindrome
         static void Main(string[] args)
         {
             Console.WriteLine("Give me a word:");
-            string input = Console.ReadLine();            
+            string input = Console.ReadLine();
+
+            if (IsPalindrome(input))
+            {
+                Console.WriteLine("It is a palindrome!");
+                Console.ReadLine();
+            }
+            else
+            {
+                Console.WriteLine("It is NOT a palindrome!");
+                Console.ReadLine();
+            }
         }
 
         static bool IsPalindrome(string input)
